@@ -10,9 +10,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "vue": "^3.5.22"
   },
   "devDependencies": {
@@ -23,5 +25,6 @@
     "globals": "^16.3.0",
     "vite": "^7.1.7",
     "vite-plugin-vue-devtools": "^8.0.2"
-  }
+  },
+  "homepage": "https://likevanilla.github.io/todo1"
 }
